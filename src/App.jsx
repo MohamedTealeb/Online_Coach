@@ -7,7 +7,7 @@ import Exercises from './Pages/User/Exercises'
 
 import Yossef_darwish from './Compnent/Client/Yossef_darwish/Yossef_darwish'
 import Mohamed_Ashraf from './Compnent/Client/Mohamed_Ashraf/Mohamed_Ashraf'
-import Zeyad_Habib from './Compnent/Client/zeyad_Habib/zeyad_Habib'
+
 import Yossef_Lila from './Compnent/Client/Yossef_Lila/Yossef_Lila'
 import Ahmed_Darawish from './Compnent/Client/Ahmed_Darawish/Ahmed_Darawish'
 
@@ -19,6 +19,7 @@ import Client1 from './Pages/User/Client1'
 import Mahmoud_Saber from './Compnent/Client/Mahmoud_Saber/Mahmoud_Saber'
 import Mohamed_Samer from './Compnent/Client/Mohamed_Samer/Mohamed_Samer';
 import ProtectedRoute from './Compnent/AuthContext/ProtectedRoute';
+import Zeyad_Habib from './Compnent/Client/zeyad_Habib/Zeyad_Habib';
 
 
 
