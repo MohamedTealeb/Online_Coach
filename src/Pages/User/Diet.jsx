@@ -33,14 +33,59 @@ export default function Diet() {
         },
         2: {
             "December": {
-                title: "Balanced Diet - January",
+                title: "Balanced Diet - December",
                 meals: [
-                    { name: "Breakfast", description: "makrona with fruits" },
-                    { name: "Lunch", description: "Grilled chicken with vegetables" },
-                    { name: "Dinner", description: "Salmon with quinoa" },
+                    { name: "الفطار ", description:`بطاطس مسلوقة
+gram 100+جبنه قريشgram 200
++بيضة كاملة مسلوقه2
+معلقه زبده فول سوداني او مكسرات (اختياري)`},
+{ name:"بعد الفطار بساعتين", description: `رز مسلوق مطبوخ100g+طبق سلطه(100g)` },
+
+                                            { name: "الغداء", description: `اي بروتين (150g) +رز250جرام` },
+                                            { name: "قبل التمرين ب ساعه ونص", description: `رز150g` },
+                                            { name: "العشاء", description: `بطاطس مسلوقة
+gram 100+جبنه قريشgram 200
++بيضة كاملة مسلوقه2
+معلقه زبده فول سوداني او مكسرات (اختياري)` },
                 ],
             },
-          
+         
+        },
+        
+        5: {
+            "December": {
+                title: "Balanced Diet - December",
+                meals: [
+                    { name: "الفطار ", description: `3بيض+بطاطس مسلوقه ٢٠٠`},
+{ name:"  بعد الفطار بساعتين ونص", description: `١٥٠بانيه ٢٠٠رزمسلوق` },
+
+                                            { name: "الغداء", description: `١٥٠جرام بروتين+١٥٠رز مسلوق` },
+                                            { name: "قبل التمرين ب ساعه ونص", description: `رز100g` },
+                                            { name: "العشاء", description: `3بيض +بطاطس٢٠٠جرام ١٥٠جرام جبنه قريش` },
+                ],
+            },
+         
+        },
+        
+        6: {
+            "December": {
+                title: "Balanced Diet - December",
+                meals: [
+                    { name: "الفطار ", description:`بطاطس مسلوقة
+gram 100+جبنه قريشgram 200
++بيضة كاملة مسلوقه2
+معلقه زبده فول سوداني او مكسرات (اختياري)`},
+{ name:"بعد الفطار بساعتين", description: `رز مسلوق مطبوخ100g+طبق سلطه(100g)` },
+
+                                            { name: "الغداء", description: `اي بروتين (150g) +رز250جرام` },
+                                            { name: "قبل التمرين ب ساعه ونص", description: `رز150g` },
+                                            { name: "العشاء", description: `بطاطس مسلوقة
+gram 100+جبنه قريشgram 200
++بيضة كاملة مسلوقه2
+معلقه زبده فول سوداني او مكسرات (اختياري)` },
+                ],
+            },
+         
         },
         
         

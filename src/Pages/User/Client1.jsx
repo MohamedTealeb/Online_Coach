@@ -49,6 +49,7 @@ import ph39 from '../../assets/exercises/client/mahmoud sabra/day 2/Lever-Shrug 
 import ph40 from '../../assets/exercises/client/mahmoud sabra/day 5/Barbell-Bench-Press1.gif'
 import ph41 from '../../assets/exercises/client/mahmoud sabra/day 6/Dumbbell-Shrug 5.gif'
 import ph42 from '../../assets/exercises/client/mahmoud sabra/day 5/Kneeling-Cable-Crunch.gif'
+import ph43 from '../../assets/exercises/client/zeyad/day 2/Half-Kneeling-High-Cable-Row-Rope.gif'
 import { Helmet } from 'react-helmet';
 import dumbel from '../../assets/dumbbell-gym-svgrepo-com.svg';
 
@@ -135,29 +136,66 @@ export default function Client1() {
             "Day 2": {
                 title: "Back Day - Zeyad",
                 exercises: [
-                    { img: h, name: "Pull Up" },
-                    { img: b, name: "Barbell Row" },
+                     
+                    { img: ph10, name: "Lat-Pulldown [3x12]" },
+                    { img: ph9, name: "Seated-Cable-Row [3x12]" },
+                    { img: ph35, name: "close-grip-cable-row [2x12]" },
+                    { img: ph36, name: "Rope-Straight-Arm-Pulldown [2x10]" },
+                    { img: ph43, name: "Half-Kneeling-High-Cable-Row-Rope [2x8]" },
+                    { img: ph15, name: "Seated-Incline-Dumbbell-Curl [2x8]" },
+                    { img: ph39, name: "Lever-Shrug [3x12]" },
                 ],
             },
             "Day 3": {
                 title: "leg Day - Zeyad",
                 exercises: [
-                    { img: h, name: "Pull Up" },
-                    { img: b, name: "Barbell Row" },
+                    { img: ph17, name: "smith-machine-squat [3x12]" },
+                    { img: ph18, name: "Lever-Single-Leg-Curl [2x10]" },
+                    { img: ph19, name: "Leg-Pres [3x8]" },
+                    { img: ph20, name: "Barbell-Romanian-Deadlift [2x10]" },
+                    { img: ph21, name: "LEG-EXTENSION [2x10] " },
+                    { img: ph22, name: "Leg-Press-Calf-Raise [3x12]" },
+                    { img: ph23, name: "Cross-Crunch [4x20]" },
+                    { img: ph24, name: "Seated-Bench-Leg-Pull [3x20]" },
                 ],
             },
             "Day 4": {
-                title: "Back Day - Zeyad",
+                title: "Shoulder Day - Zeyad",
                 exercises: [
-                    { img: h, name: "Pull Up" },
-                    { img: b, name: "Barbell Row" },
+                    { img: ph25, name: "Dumbbell-Shoulder-Press [3x12]" },
+                    { img: ph26, name: "Seated-Dumbbell-Lateral-Raise [2x10]" },
+                    { img: ph27, name: "Two-Arm-Cable-Front-Raise [3x8]" },
+                    { img: ph28, name: "Rear-Delt-Machine-Flys [3x10]" },
+                    { img: ph29, name: "Seated-Incline-Dumbbell-Curl [3x12]" },
+                    { img: ph30, name: "Pushdown [2x10]" },
+                    { img: ph31, name: "Barbell-Triceps-Extension [2x10]" },
                 ],
             },
             "Day 5": {
+                title: "Chest Day - Zeyad",
+                exercises: [
+                    { img: ph1, name: "Incline Dumbbell [3x12] " },
+                    { img: ph2, name: "Dumbbell-Press [2x8-10]" },
+                    { img: ph3, name: "Seated-Dumbbell-Lateral-Raise [3x12]" },
+                    { img: ph4, name: "Chest-Dips [2x8]" },
+                    { img: ph5, name: "Lever-Chest-Press [2x10]" },
+                    { img: ph6, name: "Two-Arm-Cable-Front-Raise [2x10]" },
+                    { img: ph7, name: "Cable-Crossover [3x8-12]" },
+                    { img: ph8, name: "Barbell-Triceps-Extension [3x12]" },
+                  
+                ],
+            },
+            "Day 6": {
                 title: "Back Day - Zeyad",
                 exercises: [
-                    { img: h, name: "Pull Up" },
-                    { img: b, name: "Barbell Row" },
+                    { img: ph10, name: "Lat-Pulldown [3x12]" },
+                    { img: ph34, name: "Lever-Reverse-T-Bar-Row [2x8-10]" },
+                    { img: ph35, name: "close-grip-cable-row [2x12]" },
+                    { img: ph36, name: "Rope-Straight-Arm-Pulldown [3x10]" },
+                    { img: ph37, name: "Full-Range-Of-Motion-Lat-Pulldown [2x10]" },
+                    { img: ph15, name: "Seated-Incline-Dumbbell-Curl [2x10]" },
+                    { img: ph16, name: "Lever-Preacher-Curl [2x12]" },
+                    { img: ph39, name: "Lever-Shrug [3x12]" },
                 ],
             },
         },
@@ -197,34 +235,165 @@ export default function Client1() {
             "Day 1": {
                 title: "Chest Day - Yossef",
                 exercises: [
-                    { img: a, name: "Incline Dumbbell" },
-                    { img: c, name: "Decline Chest Press Machine" },
+                    { img: ph1, name: "Incline-Dumbbell-Press [3x8-10] " },
+                    { img: ph25, name: "Dumbbell-Shoulder-Press [2x6-8]" },
+                    { img: ph32, name: "Lying-Chest-Press-Machine [3x8] " },
+                    { img: g, name: "Cable-Crossover [2x10] " },
+                    { img: ph3, name: "Seated-Dumbbell-Lateral-Raise [1x10]" },
+                    { img: ph6, name: "Two-Arm-Cable-Front-Raise [2x8]" },
+                    { img: ph30, name: "Pushdown [2x10]" },
+                    { img: ph38, name: "Cable-Rope-Overhead-Triceps-Extension  [2x8]" },
                 ],
             },
             "Day 2": {
-                title: "back Day - Yossef",
+                title: "Back Day - Yossef",
                 exercises: [
-                    { img: a, name: "Incline Dumbbell" },
-                    { img: c, name: "Decline Chest Press Machine" },
+                    { img: ph9, name: "Seated-Cable-Row [3x12]" },
+                    { img: ph10, name: "Lat-Pulldown [3x12]" },
+                    { img: ph11, name: "Incline-Reverse-Grip-Dumbbell-Row [2x8-10]" },
+                    { img: ph12, name: "V-bar-Lat-Pulldown [2x10]" },
+                    { img: ph13, name: "Full-Range-Of-Motion-Lat-Pulldown [3x12]" },
+                    { img: ph14, name: "Rear-Delt-Machine-Flys [2x8]" },
+                    { img: ph15, name: "Seated-Incline-Dumbbell-Curl [2x8]" },
+                    { img: ph16, name: "Lever-Preacher-Curl [3x10]" },
+                ],
+            },
+            "Day 3":{
+                title: "Leg Day - Yossef",
+                exercises: [
+                    { img: ph17, name: "smith-machine-squat [3x12]" },
+                    { img: ph18, name: "Lever-Single-Leg-Curl [2x10]" },
+                    { img: ph19, name: "Leg-Pres [3x8]" },
+                    { img: ph20, name: "Barbell-Romanian-Deadlift [2x10]" },
+                    { img: ph21, name: "LEG-EXTENSION [2x10] " },
+                    { img: ph22, name: "Leg-Press-Calf-Raise [3x12]" },
+                    { img: ph23, name: "Cross-Crunch [4x20]" },
+                    { img: ph24, name: "Seated-Bench-Leg-Pull [3x20]" },
+                ]
+            },
+            "Day 4":{
+                title: "Shoulder Day - Yossef",
+                exercises: [
+                    { img: ph25, name: "Dumbbell-Shoulder-Press [3x12]" },
+                    { img: ph26, name: "Seated-Dumbbell-Lateral-Raise [2x10]" },
+                    { img: ph27, name: "Two-Arm-Cable-Front-Raise [3x8]" },
+                    { img: ph28, name: "Rear-Delt-Machine-Flys [3x10]" },
+                    { img: ph29, name: "Seated-Incline-Dumbbell-Curl [3x12]" },
+                    { img: ph30, name: "Pushdown [2x10]" },
+                    { img: ph31, name: "Barbell-Triceps-Extension [2x10]" },
+                   
+                    
+                ]
+            },
+            "Day 5": {
+                title: "Chest Day - Yossef",
+                exercises: [
+                    { img: ph40, name: "Barbell-Bench-Press [3x12] " },
+                   
+                    { img: ph5, name: "Lever-Chest-Press [3x12]" },
+                    { img: ph7, name: "Cable-Crossover [2x10]" },
+                    { img: ph4, name: "Dips [2x12]" },
+                    { img: ph26, name: "Seated-Dumbbell-Lateral-Raise [2x8]" },
+                    { img: ph38, name: "Cable-Rope-Overhead-Triceps-Extension [3x12]" },
+           
+               
+                ],
+            },
+            "Day 6": {
+                title: "Back Day - Yossef",
+                exercises: [
+                    { img: ph10, name: "Lat-Pulldown [3x12]" },
+                    { img: ph34, name: "Lever-Reverse-T-Bar-Row [2x8-10]" },
+                    { img: ph35, name: "close-grip-cable-row [2x12]" },
+                    { img: ph36, name: "Rope-Straight-Arm-Pulldown [3x10]" },
+                    { img: ph37, name: "Full-Range-Of-Motion-Lat-Pulldown [2x10]" },
+                    { img: ph15, name: "Seated-Incline-Dumbbell-Curl [2x10]" },
+                    { img: ph16, name: "Lever-Preacher-Curl [2x12]" },
+                    { img: ph39, name: "Lever-Shrug [3x12]" },
                 ],
             },
         },
         6: {
             "Day 1": {
-                title: "Chest Day - Yossef",
+                title: "Chest Day - Ahmed",
                 exercises: [
-                    { img: a, name: "Incline Dumbbell" },
-                    { img: c, name: "Decline Chest Press Machine" },
+                    { img: ph1, name: "Incline-Dumbbell-Press [3x8-10] " },
+                    { img: ph32, name: "Lying-Chest-Press-Machine [3x8] " },
+                    { img: g, name: "Cable-Crossover [2x10] " },
+                    { img: ph3, name: "Seated-Dumbbell-Lateral-Raise [2x10]" },
+                    { img: ph6, name: "Two-Arm-Cable-Front-Raise [2x8]" },
+                    { img: ph30, name: "Pushdown [2x10]" },
+                    { img: ph38, name: "Cable-Rope-Overhead-Triceps-Extension  [2x8]" },
                 ],
             },
             "Day 2": {
-                title: "back Day - Yossef",
+                title: "Back Day - Ahmed",
                 exercises: [
-                    { img: a, name: "Incline Dumbbell" },
-                    { img: c, name: "Decline Chest Press Machine" },
+                   
+                    { img: ph10, name: "Lat-Pulldown [3x12]" },
+                    { img: ph9, name: "Seated-Cable-Row [3x12]" },
+                    { img: ph12, name: "V-bar-Lat-Pulldown [2x10]" },
+                    { img: ph14, name: "Rear-Delt-Machine-Flys [2x8]" },
+                    { img: ph15, name: "Seated-Incline-Dumbbell-Curl [2x8]" },
+                    { img: ph16, name: "Lever-Preacher-Curl [3x10]" },
+                ],
+            },
+            "Day 3":{
+                title: "Leg Day - Ahmed",
+                exercises: [
+                    { img: ph17, name: "smith-machine-squat [3x12]" },
+                    { img: ph18, name: "Lever-Single-Leg-Curl [2x10]" },
+                    { img: ph19, name: "Leg-Pres [3x8]" },
+                    { img: ph20, name: "Barbell-Romanian-Deadlift [2x10]" },
+                    { img: ph21, name: "LEG-EXTENSION [2x10] " },
+                    { img: ph22, name: "Leg-Press-Calf-Raise [3x12]" },
+                    { img: ph23, name: "Cross-Crunch [4x20]" },
+                    { img: ph24, name: "Seated-Bench-Leg-Pull [3x20]" },
+                ]
+            },
+            "Day 4":{
+                title: "Shoulder Day - Ahmed",
+                exercises: [
+                    { img: ph25, name: "Dumbbell-Shoulder-Press [3x12]" },
+                    { img: ph26, name: "Seated-Dumbbell-Lateral-Raise [2x10]" },
+                    { img: ph27, name: "Two-Arm-Cable-Front-Raise [3x8]" },
+                    { img: ph28, name: "Rear-Delt-Machine-Flys [3x10]" },
+                    { img: ph29, name: "Seated-Incline-Dumbbell-Curl [3x12]" },
+                    { img: ph30, name: "Pushdown [2x10]" },
+                    { img: ph31, name: "Barbell-Triceps-Extension [2x10]" },
+                   
+                    
+                ]
+            },
+            "Day 5": {
+                title: "Chest Day - Ahmed",
+                exercises: [
+                    { img: ph40, name: "Barbell-Bench-Press [3x12] " },
+                   
+                    { img: ph5, name: "Lever-Chest-Press [3x12]" },
+                    { img: ph7, name: "Cable-Crossover [2x10]" },
+                    { img: ph4, name: "Dips [2x12]" },
+                    { img: ph26, name: "Seated-Dumbbell-Lateral-Raise [2x8]" },
+                    { img: ph38, name: "Cable-Rope-Overhead-Triceps-Extension [3x12]" },
+           
+               
+                ],
+            },
+            "Day 6": {
+                title: "Back Day - Ahmed",
+                exercises: [
+                    { img: ph10, name: "Lat-Pulldown [3x12]" },
+                    { img: ph34, name: "Lever-Reverse-T-Bar-Row [2x8-10]" },
+                    { img: ph35, name: "close-grip-cable-row [2x12]" },
+                    { img: ph36, name: "Rope-Straight-Arm-Pulldown [3x10]" },
+                    { img: ph37, name: "Full-Range-Of-Motion-Lat-Pulldown [2x10]" },
+                    { img: ph15, name: "Seated-Incline-Dumbbell-Curl [2x10]" },
+                    { img: ph16, name: "Lever-Preacher-Curl [2x12]" },
+                    { img: ph39, name: "Lever-Shrug [3x12]" },
                 ],
             },
         },
+       
         7: {
             "Day 1": {
                 title: "Chest Day - Mohamed",
