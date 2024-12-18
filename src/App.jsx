@@ -20,6 +20,7 @@ import Mahmoud_Saber from './Compnent/Client/Mahmoud_Saber/Mahmoud_Saber'
 import Mohamed_Samer from './Compnent/Client/Mohamed_Samer/Mohamed_Samer';
 import ProtectedRoute from './Compnent/AuthContext/ProtectedRoute';
 import Zeyad_Habib from './Compnent/Client/zeyad_Habib/Zeyad_Habib';
+import Ahmed_yasser from './Compnent/Client/Ahmed_yasser/Ahmed_yasser'
 
 
 
@@ -38,6 +39,7 @@ export default function App() {
     {path:'ahmeddarwish',element:<ProtectedRoute><Ahmed_Darawish/></ProtectedRoute>},
     {path:'mahmoudsabra',element:<ProtectedRoute><Mahmoud_Saber/></ProtectedRoute>},
     {path:'mohamedsamer',element:<ProtectedRoute><Mohamed_Samer/></ProtectedRoute>},
+    {path:'ahmedyasser',element:<ProtectedRoute><Ahmed_yasser/></ProtectedRoute>},
     {path:'days',element:<ProtectedRoute><Days/></ProtectedRoute>},
     { path: "/exercise/:day", element:<ProtectedRoute><Client1 /></ProtectedRoute>  } ,
     { path: "/diet/:month", element:<ProtectedRoute><Diet /></ProtectedRoute>  } ,

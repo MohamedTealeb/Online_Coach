@@ -20,6 +20,7 @@ export default function Login() {
             { id: 6, username: "ahmed Darawish", password: "Ahmed852", "navigateTo": "/ahmeddarwish" },
             { id: 7, username: "mohamed samer", password: "samer852", "navigateTo": "/mohamedsamer" },
             { id: 8, username: "mahmoud saber", password: "saber741", "navigateTo": "/mahmoudsabra" },
+            { id: 9, username: "ahmed yasser", password: "yasser654", "navigateTo": "/ahmedyasser" },
         ]
     };
 
