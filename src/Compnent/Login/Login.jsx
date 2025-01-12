@@ -28,6 +28,7 @@ export default function Login() {
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
     const [success, setSuccess] = useState(false);
+    const [rememberMe, setRememberMe] = useState(false);
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -39,7 +40,12 @@ export default function Login() {
         if (user) {
             localStorage.setItem('user', JSON.stringify(user));
         
-            
+            if (rememberMe) {
+                localStorage.setItem('rememberedUser', JSON.stringify({ username, password }));
+            } else {
+                localStorage.removeItem('rememberedUser');
+            }
+
             setSuccess(true);
             setError('');
             
@@ -125,7 +131,14 @@ export default function Login() {
                             />
                         </div>
                         <div className="mb-4 flex items-center">
-                            <input type="checkbox" id="remember" name="remember" className="text-white" />
+                            <input 
+                                type="checkbox" 
+                                id="remember" 
+                                name="remember" 
+                                className="text-white" 
+                                checked={rememberMe}
+                                onChange={(e) => setRememberMe(e.target.checked)}
+                            />
                             <label htmlFor="remember" className="text-white ml-2">Remember Me</label>
                         </div>
                         <div className="mb-6 text-white text-center">
